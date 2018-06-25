@@ -1,0 +1,57 @@
+#table1 {
+	margin-top: 10px;
+	margin-left: 20px;
+	border: none;
+	border-collapse: collapse;
+	width: 540px;
+}
+
+.c1 {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid #000066;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	font-size: 12pt;
+	vertical-align: middle;
+}
+
+.c2 {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid #000066;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	font-size: 12pt;
+	vertical-align: top;
+}
+
+#daimei{
+	font-size:14pt;
+	font-weight: bold;
+	border-bottom: 2px solid #00008B;
+	font-family: 'ÇlÇr ÉSÉVÉbÉN';
+}
+
+#daigazou{
+	background-color: #FFFFFF;
+	padding:1pt;
+}
+
+#Honorific{
+	padding: 0px;
+	margin: 0px;
+	text-align: right;
+	font-size: 10pt;
+}
+
+.toMap {
+	display: inline;
+	height: 14px;
+}

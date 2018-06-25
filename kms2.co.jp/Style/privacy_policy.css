@@ -1,0 +1,34 @@
+#main_right {
+	font-size: 10pt;
+	text-align: left;
+	line-height: 25px;
+}
+
+.title {
+	font-size: 16pt;
+	border-style: solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: red;
+	width: 300px;
+	margin-top: 10px;
+}
+
+#president {
+	margin-right: 0px;
+	text-align: right;
+}
+.index {
+	font: bold large "MS UI Gothic";
+	font-size: 12pt;
+}
+
+#text {
+	margin-left: 10px;
+	width: 90%;
+}
+
+#p_mark {
+	display: none;
+}

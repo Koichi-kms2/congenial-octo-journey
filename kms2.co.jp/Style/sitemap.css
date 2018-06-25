@@ -1,0 +1,97 @@
+.title {
+	margin-top: 10px;
+	margin-left: 5px;
+	border-bottom: 3px solid #0000FF;
+	width: 300px;
+	font-size: 16pt;
+}
+
+.toVar {
+	color: #0000FF;
+}
+
+.toVar:hover {
+	color: #FFA500;
+}
+
+.main_title {
+	color: #000000;
+}
+
+.item01 {
+	margin-top: 15px;
+	color: #0000FF;
+}
+
+.item01:hover {
+	color: #FFA500;
+}
+
+.item {
+	margin-top: 6px;
+	color: #0000FF;
+}
+
+.item:hover {
+	color: #FFA500;
+}
+
+#toTop {
+	margin-top: 10px;
+	float: right;
+	margin-right: 20px;
+	font-size: 9pt;
+}
+
+.toTop {
+	color: #0000FF;
+}
+
+.toTop:hover {
+	color: #FFA500;
+}
+
+#toTop2 {
+	margin-top: 10px;
+	float: right;
+	margin-right: 20px;
+	font-size: 9pt;
+}
+
+.toTop2 {
+	color: #0000FF;
+}
+
+.toTop2:hover {
+	color: #FFA500;
+}
+
+#toTop3 {
+	margin-top: 10px;
+	float: right;
+	margin-right: 20px;
+	font-size: 9pt;
+}
+
+.toTop3 {
+	color: #0000FF;
+}
+
+.toTop3:hover {
+	color: #FFA500;
+}
+
+#toTop4 {
+	margin-top: 30px;
+	float: right;
+	margin-right: 20px;
+	font-size: 9pt;
+}
+
+.toTop4 {
+	color: #0000FF;
+}
+
+.toTop4:hover {
+	color: #FFA500;
+}

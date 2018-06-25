@@ -1,0 +1,28 @@
+#daimei{
+	font-size:14pt;
+	font-weight: bold;
+	border-bottom: 2px solid #00008B;
+	font-family: 'ÇlÇr ÉSÉVÉbÉN';
+}
+
+#daigazou{
+	background-color: #FFFFFF;
+	padding:1pt;
+}
+
+.table1{
+	margin-left: 20px;
+	width: 429px;
+}
+/* add ssdtm 10/01/21 */
+.table2{
+	margin-left: 20px;
+	width: 529px;
+}
+.tddai{
+	border-bottom: dashed 1px #1E90FF;
+}
+.tddai2{
+	border-bottom: dashed 1px #1E90FF;
+	font-size:14pt;
+}

@@ -1,0 +1,32 @@
+#daigazou{
+	background-color: #FFFFFF;
+	padding:1pt;
+}
+#daimei{
+	font-size:14pt;
+	font-weight: bold;
+	border-bottom: 2px solid #00008B;
+	font-family: 'ÇlÇr ÉSÉVÉbÉN';
+}
+
+#syasinn{
+	float:right;
+	margin-left:10pt;
+	margin-right:10pt;
+	}
+.aisatubunn{
+	line-height:30px;
+	text-indent: 1em;
+}
+
+#kaisya {
+	float: right;
+	font-size: 10pt;
+	margin-right: 10px;
+}
+
+#content {
+	margin-left: 15px;
+	margin-right: 25px;
+	line-height: 22px;
+}

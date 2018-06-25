@@ -1,0 +1,33 @@
+#daimei{
+	font-size:14pt;
+	font-weight: bold;
+	border-bottom: 2px solid #00008B;
+	font-family: 'ÇlÇr ÉSÉVÉbÉN';
+}
+
+#daigazou{
+	background-color: #FFFFFF;
+	padding:1pt;
+}
+
+
+.diflis {
+	margin-left: 20px;
+	width: 550px;
+}
+
+.date {
+	border-bottom: dashed 1px #708090;
+	border-left: solid 3px #1E90FF;
+	font-weight: bold;
+	color: #0000FF;
+	text-indent: 10px;
+}
+
+.content {
+	line-height: 22px;
+	font-size:13pt;
+	margin-top: 3px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}

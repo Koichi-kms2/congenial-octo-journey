@@ -1,0 +1,64 @@
+#p_intro {
+	width: 195px;
+	float: left;
+	font-size: 9pt;
+}
+
+.cap {
+	margin-top:27px;
+	border-left-color: #87CEEB;
+	border-left-width: 3px;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #87CEEB;
+	font-size: 10pt;
+	text-indent: 3px;
+}
+
+#point {
+	margin-top: 3px;
+}
+
+#point2 {
+	margin-top: 3px;
+}
+#soubu{
+	margin-top: 10px;
+}
+#p_map{
+	float: right;
+	width: 400px;
+	margin-right: 3px;
+}
+
+.map {
+	width: 400px;
+	height: 325px;
+	
+}
+
+.font_bold {
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.font_blue {
+	color: #0000FF;
+	font-weight: bold;
+}
+
+.big {
+	margin-right: 0px;
+	margin-top: 5px;
+	text-align: left;
+	float: right;
+	font-size:9pt;
+}
+
+#toPrev {
+	width: 100px;
+	margin-left: 502px;
+	margin-top: 180px;
+	font-size: 9pt;
+}

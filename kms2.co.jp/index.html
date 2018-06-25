@@ -1,0 +1,410 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang = "ja">
+
+<head>
+	<meta http-equiv = "Content-Language" content = "ja">
+	<meta http-equiv = "Content-Type" content = "text/html; charset=Shift_JIS">
+	<meta http-equiv = "Content-Style-Type" content = "text/css">
+	<meta http-equiv = "Content-Script-Type" content="text/javascript">
+
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel = "stylesheet" type = "text/css" href="Style/temp.css">
+	<link rel = "stylesheet" type = "text/css" href="Style/index.css">
+	<title>株式会社ケーエムエス２</title>
+
+	<script type = "text/javascript" language = "JavaScript">
+	<!--
+	
+	function hideMenu(tName) {
+		tMenu = document.getElementById(tName).style;
+		tMenu.display = "none";
+	}
+	
+	function outMenu(tName) {
+		tMenu = document.getElementById(tName).style;
+		tMenu.display = "block";
+	}
+	
+	function cngImage(img, path) {
+		document.images[img].src = path;
+	}
+	
+	//未使用
+	function IsGecko(){
+	    if(navigator){
+	        if(navigator.userAgent){
+	            if(navigator.userAgent.indexOf('Netscape') != -1){
+	            	return true;
+	            }
+	        }
+	    }
+	    return false;
+	}
+	
+	trList = new Array("treeMenu1","treeMenu2","treeMenu3", "treeMenu4");
+	
+	function exMenu(tName, path)
+	{	
+		
+		tMenu = document.getElementById(tName).style;
+		
+		if(tMenu.display == "block") {
+				location.href=path_3b.UNKNOWN}
+		for (i=0; i<trList.length; i++) {
+			tArray = document.getElementById(trList[i]).style;
+			tArray.display = "none";
+		}
+		tMenu = document.getElementById(tName).style;
+		if (tMenu.display == 'none'){
+			 tMenu.display = "block";
+		}
+	}
+	function cngImage(img, num, col) {
+		aiueo = document.getElementById(img).style;
+		if (num == 0){
+			aiueo.backgroundImage = 'url(\'img/tree02_02.gif\')'
+		} else if (num == 1){
+			aiueo.backgroundImage = 'url(\'img/tree02.gif\')'
+		} else if (num == 2){
+			aiueo.backgroundImage = 'url(\'img/tree_mini02_02.gif\')'
+			aiueok = document.getElementById(col).style;
+			aiueok.color = '#ffffff';
+		} else if (num == 3){
+			aiueo.backgroundImage = 'url(\'img/tree_mini01.gif\')'
+			aiueok = document.getElementById(col).style;
+			aiueok.color = '#000000';
+		}
+	}
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17446085-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+	// -->
+	</script>
+</head>
+
+<body>
+	
+	<!-- 全体 -->
+	<div id = "whole">
+		<!-- ヘッダ部 -->
+		<div id = "head">
+		
+			<!-- ヘッダ部(左) -->
+			<div id = "logobox">
+				<a href="index.html">
+					<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" 
+						width="190" height="86" 
+						codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0">
+						<param name="movie" value="Swf/kms2_logo_flash_short.swf">
+						<param name="quality" value="high">
+						
+						<embed src="Swf/kms2_logo_flash_short.swf" quality="high"
+						pluginspage="http://www.macromedia.com/jp/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"
+						type="application/x-shockwave-flash"
+						width="190" height="86">TopLeft
+					</object>
+
+				</a>
+			</div>
+			
+			<!-- ヘッダ部(右) -->
+			<div id = "right">
+				　<!--「ものづくり」の楽しさを-->
+			</div>
+		</div>
+		
+		<!-- メイン部 -->
+		<div id = "main">
+		
+			<!-- メイン部(左) -->
+			<div id = "main_left">
+				<table border="0" cellpadding="0" cellspacing="0" summary = "メニューツリーテーブル">
+					<tr>
+						<td class = "menutddai" id = "backimgk" title = "会社案内"
+							onmouseover = "cngImage('backimgk', 0, 0)"
+							onmouseout = "cngImage('backimgk', 1, 0)">
+							<a href="Corporate_Guidance/index.html" class="menulink">
+								<span class="menumozidai">会社案内</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "aisatsu"
+							onmouseover = "cngImage('aisatsu', 2, 'ai')"
+							onmouseout = "cngImage('aisatsu', 3, 'ai')">
+							<a href="Recruit/New2008/index.html" class="menulink" id= "ai">
+								<span class="menumozisyouzen">社長挨拶
+									<span class="menumozisyoueigo">-President Greeting-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "rinenn"
+							onmouseover = "cngImage('rinenn', 2, 'ri')"
+							onmouseout = "cngImage('rinenn', 3, 'ri')">
+							<a href="Recruit/New2008/index.html" class="menulink" id= "ri">
+								<span class="menumozisyouzen">企業理念
+									<span class="menumozisyoueigo">-Philosophy-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "gaiyou"
+							onmouseover = "cngImage('gaiyou', 2, 'ga')"
+							onmouseout = "cngImage('gaiyou', 3, 'ga')">
+							<a href="Recruit/New2008/index.html" class="menulink" id= "ga">
+								<span class="menumozisyouzen">会社概要
+									<span class="menumozisyoueigo">-Outline-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "enkaku"
+							onmouseover = "cngImage('enkaku', 2, 'en')"
+							onmouseout = "cngImage('enkaku', 3, 'en')">
+							<a href="Recruit/New2008/index.html" class="menulink" id= "en">
+								<span class="menumozisyouzen">会社沿革
+									<span class="menumozisyoueigo">-History-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "sosiki"
+							onmouseover = "cngImage('sosiki', 2, 'sosi')"
+							onmouseout = "cngImage('sosiki', 3, 'sosi')">
+							<a href="Recruit/New2008/index.html" class="menulink" id= "sosi">
+								<span class="menumozisyouzen">組織図
+									<span class="menumozisyoueigo">-Organization Chart-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class = "menutddai" id = "backimgz" title = "事業紹介"
+							onmouseover = "cngImage('backimgz', 0, 0)"
+							onmouseout = "cngImage('backimgz', 1, 0)">
+							<a href="Business_Introduction/index.html" class="menulink">
+								<span class="menumozidai">事業紹介</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "seihin"
+							onmouseover = "cngImage('seihin', 2, 'sei')"
+							onmouseout = "cngImage('seihin', 3, 'sei')">
+							<a href="Recruit/New2008/index.html" class="menulink" id= "sei">
+								<span class="menumozisyouzen">製品情報
+									<span class="menumozisyoueigo">-Product Infomation-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "gyoumu"
+							onmouseover = "cngImage('gyoumu', 2, 'gyo')"
+							onmouseout = "cngImage('gyoumu', 3, 'gyo')">
+							<a href="Recruit/New2008/index.html" class="menulink" id= "gyo">
+								<span class="menumozisyouzen">業務経歴
+									<span class="menumozisyoueigo">-Business Career-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class = "menutddai" id = "backimgs" title = "採用情報"
+							onmouseover = "cngImage('backimgs', 0, 0)"
+							onmouseout = "cngImage('backimgs', 1, 0)">
+							<a href="Recruit/index.html" class="menulink">
+								<span class="menumozidai">採用情報</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "backimgss"
+							onmouseover = "cngImage('backimgss', 2, 'sin')"
+							onmouseout = "cngImage('backimgss', 3, 'sin')">
+							<a href="Recruit/New2008/index.html" class="menulink" id= "sin">
+								<span class="menumozisyouzen">新卒採用
+									<span class="menumozisyoueigo">-New Graduate-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "backimgst"
+							onmouseover = "cngImage('backimgst', 2, 'tyuu')"
+							onmouseout = "cngImage('backimgst', 3, 'tyuu')">
+							<a href="Recruit/Career/index.html" class ="menulink" id = "tyuu" style = "color:#ffffff">
+								<span class="menumozisyouzen">中途採用
+									<span class="menumozisyoueigo">-Career-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "backimgsk"
+							onmouseover = "cngImage('backimgsk', 2, 'kei')"
+							onmouseout = "cngImage('backimgsk', 3, 'kei')">
+							<a href="Recruit/Contract/index.html" class="menulink" id = "kei">
+								<span class="menumozisyouzen">契約社員
+									<span class="menumozisyoueigo">-Contract-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class = "menutddai" id = "backimgt" title = "お問い合わせ"
+							onmouseover = "cngImage('backimgt', 0, 0)"
+							onmouseout = "cngImage('backimgt', 1, 0)">
+							<a href="Question/index.html" class="menulink">
+								<span class="menumozidai">お問い合わせ</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "backimgtf"
+							onmouseover = "cngImage('backimgtf', 2, 'fa')"
+							onmouseout = "cngImage('backimgtf', 3, 'fa')">
+							<a href="Question/faq.html" class="menulink" id = "fa">
+								<span class="menumozisyouzen">
+									<span class="menumozisyoueigo">FAQ</span>
+								</span>
+								
+							</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			
+			<!-- メイン部(右) -->
+			<div id = "main_right" style = "overflow:hidden;">
+				<div id = "movie">
+						<img src="img/saigai80-2012.jpg" class = "image_title" alt = "">
+				</div>
+				<div id = "new">
+					<DIV id = "box01">
+						<!--↓一番外側の枠-->
+						<DIV id = "box02">
+							<!--↓立体感を出すために、右下ボーダーを濃い色に、左上ボーダーを薄い色に設定-->
+							<DIV id = "box03">
+								<!--↓のbackground-colorで枠の色を、paddingで枠の太さを設定-->
+								<DIV id = "box04">
+									<DIV id = "box05"><strong>News</strong></DIV>
+									<!--↓上のと反対に右下と左上の枠色を設定-->
+									<DIV id = "box06">
+										<!--↓内容を書く場所の背景色と余白を設定-->
+										<DIV id = "box07">
+											<div class = "text">
+													<b>2014年11月16日</b><br>　　第５回　NIPPON IT チャリティ駅伝に参加しました<br><br>
+													<a href="http://www.nit-run.com" target="_blank">またもや晴天のお台場で第５回目が開催されました
+														<img src="img/20141116s.jpg" alt="Start地点"  border="0" align=middle></a><br><br>
+													<b>2013年11月17日</b><br>　　第４回　NIPPON IT チャリティ駅伝に参加しました<br><br>
+												<a href="http://www.nit-run.com" target="_blank">晴天の元お台場で第４回目が開催されました
+														<img src="img/s4thITekiden.jpg" alt="Start地点"  border="0" align=middle></a><br>
+												<b>2012年05月24日</b><br>　　異業種交流会で<span style="color:red"><b>コリーデス</b></span>の製品紹介実施。<br>
+																			<a href="http://www.gitechnos.com/globalTechnos/koleedes/products/koleedes.html" target="_blank">☆☆　製品画像　☆☆　　　
+																			<img src="img/wrb.jpg" alt="コリーデス" border="0" align=middle></a><br>
+												<b>2012年05月14日</b><br>　　<span style="color:red"><b>コリーデス</b></span><span style="color:black">（ペーパークリップ）販売開始</span><br><br>
+												<b>2011年12月02日</b><br>　　親子で楽しいロボット教室　次回開催は2012年1月頃にお知らせします<br>
+												<b>2011年11月01日</b><br>　　親子で楽しいロボット教室　（10月30日 開催分）終了しました<br>
+												<b>2011年10月12日</b><br>　　親子で楽しいロボット教室　（10月30日）<br>
+																			<a href="http://www.kms2.co.jp/robo/">★★　受付開始しました（小伝馬町）　★★
+																			<img src="img/robot001.jpg" alt="　親子ロボット教室" border="0" align=middle></a><br>
+												<b>2011年08月22日</b><br>
+												<b><iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2F%25E3%2583%25AD%25E3%2583%259C%25E3%2583%2583%25E3%2583%2588%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259F%25E5%25AD%2590%25E4%25BE%259B%25E5%2590%2591%25E3%2581%2591%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%25A0%25E6%2595%2599%25E5%25AE%25A4%2F229723593735349&width=450&colorscheme=light&show_faces=false&border_color&stream=false&header=false&height=62" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:62px;" allowTransparency="true" title="facebook"></iframe></b><br>
+												<b>2011年06月24日</b><br>　　夏休み親子で楽しいロボット教室　（8月20日、21日、28日）<br>
+																			<a href="http://www.web-spa.com/robo/">★★　受付開始しました（高輪台、市川）　★★
+																			<img src="img/robot001.jpg" alt="　夏休み親子ロボット教室" border="0" align=middle></a><br>
+												<b>2010年09月13日</b><br>　Android 新作続々発表 <b>RReversi,Loto6Sense Lite</b>。<br><br>
+												<b>2010年07月08日</b><br>　Android <font color="red"><b>有料ソフト MManners </b></font>発売開始<br><br>
+												<b>2010年03月19日</b><br>　<a href="android/index.html">Android ソフト新規発表 <b>ArClock</b>。</a><br><br>
+												<b>2010年01月21日</b><br>　異業種交流会で<span style="color:yellow;background-color: black;"><b>LEDランプ</b></span>の製品紹介実施。<br><br>
+												<b>2009年12月07日</b><br>　<span style="color:yellow;background-color: black;"><b>LED照明</b></span>関連商品の扱いを開始。<br><br>
+												<b>2008年06月14日</b><br>　第8回 就・転・職フェスティバル出展しました。
+																			<a href="ds/d48eb66c0545a8ef708246d18a0016cf.html#x5916;&amp;#x90e8;&amp;#x30ea;&amp;#x30f3;&amp;#x30af;&amp;&amp;#x5c31;&amp;#x8ee2;&amp;#x8077;&amp;#x30d5;&amp;#x30a7;&amp;#x30b9;&amp;#x30c6;&amp;#x30a3;&amp;#x30d0;&amp;#x30eb;:&amp;&amp;url:=https://next.rikunabi.com/rnc/docs/cp_s00911.jsp?html_nm=fair/festival/top.html&amp;l_id=6&amp;__m=1" target="_blank">
+																			<img src="img/tsyuutennsyoku.bmp" alt="就・転・職フェステバルへ" border="0" align=middle></a><br>
+												<b>2008年06月04日</b><br>　<a href="ds/755a1b22f0d8192e5a2500f4e5755ddb.gif#ampx5916;&amp;#x90e8;&amp;#x30ea;&amp;#x30f3;&amp;#x30af;&amp;&amp;#x30ea;&amp;#x30af;&amp;#x30ca;&amp;#x30d3;&amp;#x4e;&amp;#x45;&amp;#x58;&amp;#x54;:&amp;&amp;url:=https://next.rikunabi.com/rnc/docs/cp_s01810.jsp?corp_cd=2807737&amp;cntct_pnt_cd=001&amp;__m=1" target="_blank">　求人応募・リクナビNEXT掲載</a><br><br>
+												<b>2008年03月01日</b><br>　ウェブサイトを公開しました。<br>
+											</div>
+										</DIV>
+									</DIV>
+								</DIV>
+							</DIV>
+						</DIV>
+					</DIV>
+				</div>
+			</div>
+		</div>
+		
+		<!-- フッタ部 -->
+		<div id = "foot">
+			
+			<!-- フッタ部(左) -->
+			<div id = "link01">
+				<a href="sitemap.html" class = "sitemap">サイトマップ</a>
+			</div>
+			<div id = "link02">
+				<a href="privacy_policy.html" class = "privacy_policy">プライバシーポリシー</a>
+			</div>
+			
+			<div id = "copy">Copyright &copy; 2007 KMS2 Co.,Ltd.All Rights Reserved.</div>
+			<div>
+				<a href="syanai/index.html" class = "privacy_policy">.</a>
+				<a href="android/loto6yosou/HPC-index.html" class = "privacy_policy">.</a>
+			</div>
+			<!-- アクセス解析CGI LastUPD 08/07/15 @丹羽 -->
+			<a href="http://tech.bayashi.net"><!--  onClick="document.next.submit();return false;" -->
+				<script type="text/javascript" language="JavaScript">
+					<!--
+						//----- ログ取得CGIへのパス(相対パスもしくはURL)
+						var pa = "ds/dsw.cgi";
+						//----- ページ名(半角英数文字のみ)KMS2Top
+						var pg = document.title.substring(4,document.title.length) + "トップ";
+						//----- 出力タイプ(g=gifカウンタ, p=pngカウンタ, m=gifロゴ, n=出力ナシ)
+						var p = "n";
+						//----- カウントアップしないなら "no"
+						var cnt = "";
+						
+						var a="&&"; var pf=navigator.platform; var lng=navigator.language;
+						var swh=screen.width+"x"+screen.height;
+						var cd=screen.colorDepth; var pd=screen.pixelDepth; var rf=document.referrer;
+						document.write("<img src='"+pa+"?xx=",new Date().getSeconds(),a+"pg="+pg+a+"p="+p+a+"md=j"+a+"cnt="+cnt+a+"pf="+pf+a+"lng="+lng+a+"swh="+swh+a+"cd="+cd+a+"pd="+pd+a+"rf="+rf+"' alt='アクセス解析' border='0' />");
+					// -->
+				</script>
+			</a>
+			
+			<!--
+			<form name="next" action="a.php" method="post" target="_blank">
+				<input type="hidden" name="username" value="太郎">
+			</form>
+			-->
+			
+			<noscript>
+				<img src="ds/90df60e7df08ed2e50b33fdfd2f0a2e4.gif" alt="アクセス解析" border="0">
+			</noscript>
+			
+		</div>
+	</div>
+		
+</body>
+
+<!--作成者：sasano　作成日：07/12/17-->
+<!--更新者：naruse　更新日：08/01/15-->
+<!--更新者：muroya　modify：08/06/04-->
+<!--更新者：niwa  　更新日：08/07/15-->
+<!--更新者：muroya　modify：10/07/14 GoogleAnalytics Add -->
+<!--更新者：muroya　modify：11/01/05 link Add -->
+<!--更新者：muroya　modify：11/06/24 News robot Add -->
+</html>

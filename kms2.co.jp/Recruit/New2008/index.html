@@ -1,0 +1,392 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang = "ja">
+
+<head>
+	<meta http-equiv = "Content-Language" content = "ja">
+	<meta http-equiv = "Content-Type" content = "text/html; charset=Shift_JIS">
+	<meta http-equiv = "Content-Style-Type" content = "text/css">
+	<meta http-equiv = "Content-Script-Type" content="text/javascript">
+	
+	<link rel = "stylesheet" type = "text/css" href="../../Style/temp.css">
+	<link rel = "stylesheet" type = "text/css" href="../../Style/new2008_index.css"> 
+	<!--[if IE ]><link rel = "stylesheet" type = "text/css" href="../../Style/new2008_index_IE.css"><![endif]--> 
+	<title>株式会社ケーエムエス２　新卒採用</title>
+
+
+	<script type = "text/javascript" language = "JavaScript">
+	<!--
+	 
+	function hideMenu(tName) {
+		tMenu = document.getElementById(tName).style;
+		tMenu.display = "none";
+	}
+	
+	function outMenu(tName) {
+		tMenu = document.getElementById(tName).style;
+		tMenu.display = "block";
+	}
+	
+	function cngImage(img, path) {
+		document.images[img].src = path;
+	}
+	
+
+  /* 奥行きZ座標set用指定用関数 /////////////////  UseFree
+  ========================================================
+   Win   n4 n6 moz e4   e5 e6,
+   Mac   n4 n6 moz e4.5 e5,
+   Linux n4 n6 moz     
+  ========================================================
+  使用例
+  zindexLAYER('レイヤ－名',zindex) 
+  //zindexは0から始まる整数で0が最下層
+  ________________________________________________________
+  Support http://game.gr.jp/js/
+  ======================================================*/
+
+  function zindexLAYER(layName,zindex){
+
+    if(document.getElementById)         //N6,Moz,IE5,IE6用
+      document.getElementById(layName).style.zIndex=zindex 
+    else if(document.all)
+      document.all(layName).style.zIndex=zindex    //IE4用
+    else if(document.layers)
+      document.layers[layName].zIndex=zindex       //NN4用
+
+  }
+
+  /*//////////////// 奥行きZ座標set用指定用関数ここまで */
+  var z = 9;
+  
+	
+	function cngImage(img, num, col) {
+		aiueo = document.getElementById(img).style;
+		if (num == 0){
+			aiueo.backgroundImage = 'url(\'../../img/tree02_02.gif\')'
+		} else if (num == 1){
+			aiueo.backgroundImage = 'url(\'../../img/tree02.gif\')'
+		} else if (num == 2){
+			aiueo.backgroundImage = 'url(\'../../img/tree_mini02_02.gif\')'
+			aiueok = document.getElementById(col).style;
+			aiueok.color = '#ffffff';
+		} else if (num == 3){
+			aiueo.backgroundImage = 'url(\'../../img/tree_mini01.gif\')'
+			aiueok = document.getElementById(col).style;
+			aiueok.color = '#000000';
+		}
+	}
+	// -->
+	</script>
+	
+</head>
+
+<body style="text-align:center">
+	
+	<!-- 全体 -->
+	<div id = "whole" style="text-align:left">
+	
+		<!-- ヘッダ部 -->
+		<div id = "head">
+		
+			<!-- ヘッダ部(左) -->
+			<div id = "logobox">
+				<a href="../../index.html"><img src="../../img/logo_pink.wine.gif" class = "logo" alt = "KMS2 Topへ"></a>
+			</div>
+			
+			<!-- ヘッダ部(右) -->
+			<div id = "right">
+				　<!--「ものづくり」の楽しさを-->
+			</div>
+		</div>
+		
+		<!-- メイン部 -->
+		<div id = "main">
+		
+			<!-- メイン部(左) -->
+			<div id = "main_left">
+				<!-- メニューツリーテーブル -->
+				<table border="0" cellpadding="0" cellspacing="0" summary = "メニューツリーテーブル">
+					<tr>
+						<td class = "menutddai" id = "backimgk" title = "会社案内"
+							onmouseover = "cngImage('backimgk', 0, 0)"
+							onmouseout = "cngImage('backimgk', 1, 0)">
+							<a href="../../Corporate_Guidance/index.html" class="menulink">
+								<span class="menumozidai">会社案内</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "aisatsu" title = "社長挨拶"
+							onmouseover = "cngImage('aisatsu', 2, 'ai')"
+							onmouseout = "cngImage('aisatsu', 3, 'ai')">
+							<a href="../../Recruit/New2008/index.html" class="menulink" id= "ai">
+								<span class="menumozisyouzen">社長挨拶
+									<span class="menumozisyoueigo">-President Greeting-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "rinenn" title = "企業理念"
+							onmouseover = "cngImage('rinenn', 2, 'ri')"
+							onmouseout = "cngImage('rinenn', 3, 'ri')">
+							<a href="../../Recruit/New2008/index.html" class="menulink" id= "ri">
+								<span class="menumozisyouzen">企業理念
+									<span class="menumozisyoueigo">-Philosophy-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "gaiyou" title = "会社概要"
+							onmouseover = "cngImage('gaiyou', 2, 'ga')"
+							onmouseout = "cngImage('gaiyou', 3, 'ga')">
+							<a href="../../Recruit/New2008/index.html" class="menulink" id= "ga">
+								<span class="menumozisyouzen">会社概要
+									<span class="menumozisyoueigo">-Outline-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "enkaku" title = "会社沿革"
+							onmouseover = "cngImage('enkaku', 2, 'en')"
+							onmouseout = "cngImage('enkaku', 3, 'en')">
+							<a href="../../Recruit/New2008/index.html" class="menulink" id= "en">
+								<span class="menumozisyouzen">会社沿革
+									<span class="menumozisyoueigo">-History-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "sosiki" title = "組織図"
+							onmouseover = "cngImage('sosiki', 2, 'sosi')"
+							onmouseout = "cngImage('sosiki', 3, 'sosi')">
+							<a href="../../Recruit/New2008/index.html" class="menulink" id= "sosi">
+								<span class="menumozisyouzen">組織図
+									<span class="menumozisyoueigo">-Organization Chart-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class = "menutddai" id = "backimgz" title = "事業紹介"
+							onmouseover = "cngImage('backimgz', 0, 0)"
+							onmouseout = "cngImage('backimgz', 1, 0)">
+							<a href="../../Business_Introduction/index.html" class="menulink">
+								<span class="menumozidai">事業紹介</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "seihin" title = "製品情報"
+							onmouseover = "cngImage('seihin', 2, 'sei')"
+							onmouseout = "cngImage('seihin', 3, 'sei')">
+							<a href="../../Recruit/New2008/index.html" class="menulink" id= "sei">
+								<span class="menumozisyouzen">製品情報
+									<span class="menumozisyoueigo">-Product Infomation-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "gyoumu" title = "業務経歴"
+							onmouseover = "cngImage('gyoumu', 2, 'gyo')"
+							onmouseout = "cngImage('gyoumu', 3, 'gyo')">
+							<a href="../../Recruit/New2008/index.html" class="menulink" id= "gyo">
+								<span class="menumozisyouzen">業務経歴
+									<span class="menumozisyoueigo">-Business Career-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class = "menutddai" id = "backimgs" title = "採用情報" style = "background-image:url('../../img/tree02_02.gif')">
+							<!--onmouseover = "cngImage('backimgs', 0, 0)"
+							onmouseout = "cngImage('backimgs', 1, 0)">-->
+							<a href="../../Recruit/index.html" class="menulink">
+								<span class="menumozidai">採用情報</span>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class = "menutdsyou" id = "backimgss" style = "background-image:url('../../img/tree_mini02_02.gif')" title = "新卒採用">
+							<!--onmouseover = "cngImage('backimgss', 2, 'sin')"
+							onmouseout = "cngImage('backimgss', 3, 'sin')">-->
+							<a href="../../Recruit/New2008/index.html" class="menulink" id= "sin" style = "color:#ffffff">
+								<span class="menumozisyouzen">新卒採用
+									<span class="menumozisyoueigo">-New Graduate-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class = "menutdsyou" id = "backimgst" title = "中途採用"
+							onmouseover = "cngImage('backimgst', 2, 'tyuuto')"
+							onmouseout = "cngImage('backimgst', 3, 'tyuuto')">
+							<a href="../../Recruit/Career/index.html" class ="menulink" id = "tyuuto">
+								<span class="menumozisyouzen">中途採用
+									<span class="menumozisyoueigo">-Career-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class = "menutdsyou" id = "backimgsk" title = "契約社員"
+							onmouseover = "cngImage('backimgsk', 2, 'kei')"
+							onmouseout = "cngImage('backimgsk', 3, 'kei')">
+							<a href="../../Recruit/Contract/index.html" class="menulink" id = "kei">
+								<span class="menumozisyouzen">契約社員
+									<span class="menumozisyoueigo">-Contract-</span>
+								</span>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class = "menutddai" id = "backimgt" title = "お問い合わせ"
+							onmouseover = "cngImage('backimgt', 0, 0)"
+							onmouseout = "cngImage('backimgt', 1, 0)">
+							<a href="../../Question/index.html" class="menulink">
+								<span class="menumozidai">お問い合わせ</span>
+							</a>
+						</td>
+					</tr>
+					<tr class = "mienai">
+						<td class = "menutdsyou" id = "backimgtf" title = "FAQ"
+							onmouseover = "cngImage('backimgtf', 2, 'fa')"
+							onmouseout = "cngImage('backimgtf', 3, 'fa')">
+							<a href="../../Question/faq.html" class="menulink" id = "fa">
+								<span class="menumozisyouzen">
+									<span class="menumozisyoueigo">FAQ</span>
+								</span>
+								
+							</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<!-- メイン部(右) -->
+			<div id = "main_right" style = "text-align=left">
+				<div id ="daigazou">
+						<p id="daimei">　新卒採用　　<i>-New Graduate-</i></p>
+				</div>
+				
+					
+					<div id="migisita">
+						<div id="bosyuu">
+							<!-- 募集要項の画像 -->
+							<a href="applicant.html" >
+							<img src="../../img/new_recruitment.gif" name="bb" alt = "募集要項"
+							onmouseover="zindexLAYER('bosyuu', z++);
+							 document.bb.src='../../img/new_recruit_03.gif'"
+							 onmouseout="zindexLAYER('bosyuu', 1);
+							 document.bb.src='../../img/new_recruitment.gif'">
+							</a>
+						</div>
+						<div id="kaisya"><!--a href = "explanation.html"-->
+							<a  href="explanation.html"
+							 onmouseover="zindexLAYER('kaisya', z++);
+							 document.kk.src='../../img/new_company03.gif'"
+							 onmouseout="zindexLAYER('kaisya', 0);
+							 document.kk.src='../../img/new_company.gif'">
+							<!-- 会社説明の画像 -->
+							<img src="../../img/new_company.gif" name="kk" alt = "会社説明">
+							</a>
+						</div>
+						<div id="zinzai">
+							<!-- a href="training.html" -->
+							<a
+							 onmouseover="zindexLAYER('zinzai', z++);
+							 document.zz.src='../../img/human03.gif'"
+							 onmouseout="zindexLAYER('zinzai', 2);
+							 document.zz.src='../../img/human.gif'">
+							<!-- 人材育成の画像 -->
+							<img src="../../img/human.gif" name="zz" alt = "研修プログラム">
+							</a>
+						</div>
+						<div id="syain">
+							<a href="staff_message.html" 
+							 onmouseover="zindexLAYER('syain', z++);
+							 document.nn.src='../../img/message03.gif'"
+							 onmouseout="zindexLAYER('syain', 4);
+							 document.nn.src='../../img/message.gif'">
+							<!-- 社員メッセージの画像 -->
+							<img src="../../img/message.gif" name="nn" alt = "社員メッセージ">
+							</a>
+						</div>
+						<div id="faq">
+							<!-- a href="faq.html" -->
+							<a href="faq.html"
+							 onmouseover="zindexLAYER('faq', z++);
+							 document.ff.src='../../img/faq03.gif'"
+							 onmouseout="zindexLAYER('faq', 3);
+							 document.ff.src='../../img/faq01.gif'">
+							<!-- FAQの画像 -->
+							<img src="../../img/faq01.gif" name="ff" border="0" alt = "FAQ">
+							</a>
+						</div>
+					</div>
+				<p id = "index-text">
+					　システムエンジニアとは？プログラマとは？<span>ＩＴ</span>業界の中でどんな役割なのか、中々理解されていません。弊社は全員の方にシステムエンジニアになって頂きたいと採用の基準を設けています。新卒者・未経験者向けに作られた教育・研修のカリキュラムに従い研修受講後、業務に従事して頂いています。<br>
+					　システムエンジニアはお客様或いは自らが要望するシステム（目的とされる結果を導きだす仕組み）を作り出す仕事です。その道具として<span>ＩＴ</span>機器（コンピュータ、通信機器等）を使用しています。自分で考え、仕組みを作って行かなければならないので大変かも知れません。しかし、新しいものを作り出して期待通りに動いたとき、又、お客様に使われて社会貢献が出来たときには大きな喜びがあります。<br>
+					　弊社の教育・研修は２ケ月～６ケ月に渡って行われます。カリキュラムは個々の<span>ＩＴ</span>スキルの習得状況により色々なバリエーションがあります。挫けずに学習して頂ければ技術は習得出来ます。尚、弊社の適性検査と面接に合格したのであれば必ず<span>ＩＴ</span>技術者としての資質があります。<br>
+					　教育・研修の環境はありますが、自分の身に付くかどうかは姿勢次第です。まず学び取る姿勢を持ってください。弊社は技術者の育成事業も将来計画としてあります。近々に事業化のための準備も開始されます。<br>
+				</p>
+					
+				<a id="toiawa" href="../../Question/index.html">
+					お問い合わせはこちら
+				</a><br>
+				<!--<a id="tyuu" href="../index.html">
+					採用情報へ戻る
+				</a>-->
+			</div>
+		</div>
+		
+		<!-- フッタ部 -->
+		<div id = "foot">
+			
+			<!-- フッタ部(左) -->
+			<div id = "link01">
+				<a href="../../sitemap.html" class = "sitemap">サイトマップ</a>
+			</div>
+			<div id = "link02">
+				<a href="../../privacy_policy.html" class = "privacy_policy">プライバシーポリシー</a>
+			</div>
+			<div id = "copy">Copyright &copy; 2007 KMS2 Co.,Ltd.All Rights Reserved.</div>
+			
+			<!-- アクセス解析CGI UPD 08/07/08 @丹羽 -->
+			<a href="http://tech.bayashi.net">
+				<script type="text/javascript" language="JavaScript">
+					<!--
+						//----- ログ取得CGIへのパス(相対パスもしくはURL)
+						var pa = "../../ds/dsw.cgi";
+						//----- ページ名(半角英数文字のみ)
+						var pg = document.title.substring(12,document.title.length);
+						//----- 出力タイプ(g=gifカウンタ, p=pngカウンタ, m=gifロゴ, n=出力ナシ)
+						var p = "n";
+						//----- カウントアップしないなら "no"
+						var cnt = "";
+						
+						var a="&&"; var pf=navigator.platform; var lng=navigator.language;
+						var swh=screen.width+"x"+screen.height;
+						var cd=screen.colorDepth; var pd=screen.pixelDepth; var rf=document.referrer;
+						document.write("<img src='"+pa+"?xx=",new Date().getSeconds(),a+"pg="+pg+a+"p="+p+a+"md=j"+a+"cnt="+cnt+a+"pf="+pf+a+"lng="+lng+a+"swh="+swh+a+"cd="+cd+a+"pd="+pd+a+"rf="+rf+"' alt='アクセス解析' border='0' />");
+					// -->
+				</script>
+			</a>
+			
+			<noscript>
+				<img src="../../ds/90df60e7df08ed2e50b33fdfd2f0a2e4.gif" alt="アクセス解析" border="0">
+			</noscript>
+			
+		</div>
+	</div>
+		
+</body>
+
+<!--作成者：konnou　作成日：07/12/17-->
+<!--更新者：naruse　更新日：08/01/16-->
+<!--更新者：niwa  　更新日：08/07/15-->
+
+</html>

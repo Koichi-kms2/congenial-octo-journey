@@ -1,0 +1,31 @@
+.nakami{
+	margin-top:70px;
+}
+
+.text{
+	margin-left:20px;
+	margin-right:20px;
+	line-height: 22px;
+}
+
+pre{
+	font-size:13pt;
+	letter-spacing:-2px;
+}
+
+.linknaka{
+	margin-right:70px;
+	float:right;
+	color:#0000FF;
+	font-size:10pt;
+}
+
+.link2{
+	color:#0000FF;
+	font-size:10pt;
+}
+
+.content{
+	font-size:13pt;
+	line-height: 22px;
+}

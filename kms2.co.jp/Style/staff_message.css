@@ -1,0 +1,59 @@
+#daimei{
+	font-size:14pt;
+	font-weight: bold;
+	border-bottom: 2px solid #00008B;
+	font-family: 'ÇlÇr ÉSÉVÉbÉN';
+}
+
+#daigazou{
+	background-color: #FFFFFF;
+	padding:1pt;
+}
+
+.exp {
+	font-size: 13pt;
+	line-height: 22px;
+}
+
+.pic {
+	margin: 0px;
+	padding: 0px;
+}
+
+.text {
+	font-size: 13pt;
+	line-height: 22px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.cap {
+	display: block;
+	margin-left: 10px;
+}
+
+.continue {
+	color: #0000FF;
+	font-size: 11pt;
+}
+
+.profile {
+	margin-left: 10px;
+	font-size: 11pt;
+}
+
+.name {
+	font-family: HGç‹é≠∏E,sans-serif; 
+	font-size: 13pt;
+	text-decoration: none;
+}
+
+.toSyain {
+	font-size: 9pt;
+	float: right;
+}
+
+#prof {
+	font-size: 11pt;
+}

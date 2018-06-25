@@ -1,0 +1,92 @@
+img {
+	border-style: none;
+}
+
+#main_right {
+	font-size: 10pt;
+}
+
+.title {
+	margin-top: 20px;
+	width: 95%;
+}
+
+.icon_camera {
+	margin-left: 500px;
+}
+
+.exp {
+	margin-left: 10px;
+	float: left;
+	font-size: 11pt;
+}
+
+.pdf {
+	float: right;
+	margin-right: 28px;
+}
+
+.font_blue {
+	font-size: 12pt;
+	color: #0000FF;
+}
+
+.tb_price {
+	margin-left: 270px;
+}
+
+.tb_price2 {
+	height: 50px;
+	text-align: center;
+}
+
+
+.tb_exp {
+	margin-left: 5px;
+	width: 95%;
+	table-layout: fixed;
+}
+
+.tb_exp01 {
+	background: lightblue;
+	border-left: solid 20px #0000FF;
+	font-size: 11pt;
+	font-weight: bold;
+	height: 30px;
+}
+
+.tb_exp02 {
+	line-height: 20px;
+}
+
+#tb_left {
+	float: left;
+	width: 60%;
+}
+
+#tb_right {
+	margin-right: 20px;
+	float: right;
+	width: 30%;
+}
+
+#regist {
+	margin-left: 150px;
+	margin-top: 10px;
+	font-size: 8pt;
+}
+
+#toTop {
+	font-size: 9pt;
+	margin-left: 400px;
+	margin-top: 20px;
+}
+
+.toTop {
+	color: #0000FF;
+	text-decoration: none;
+}
+
+.toTop:hover {
+	color: #FFA500;
+}

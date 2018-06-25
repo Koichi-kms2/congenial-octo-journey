@@ -1,0 +1,29 @@
+#daimei{
+	font-size:14pt;
+	font-weight: bold;
+	border-bottom: 2px solid #00008B;
+	font-family: 'ÇlÇr ÉSÉVÉbÉN';
+}
+
+#daigazou{
+	background-color: #FFFFFF;
+	padding:1pt;
+}
+
+.text {
+	line-height: 22px;
+	margin-right: 20px;
+}
+
+.content {
+	display: block;
+	margin-left: 20px;
+	line-height: 22px;
+	margin-right: 20px;
+}
+
+.list {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

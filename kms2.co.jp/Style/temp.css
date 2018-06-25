@@ -1,0 +1,248 @@
+@charset "shift_jis";
+
+/* ボディ */
+body {
+	margin-top: 0px;
+	padding-top: 0px;
+	/*background-image: url("../img/background12.gif");*/
+}
+/* 全体 */
+#whole {
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0;
+	width: 800px;
+	height: 583px;
+	background: #FFFFFF;
+	border:solid;
+	border-width:0px;
+}
+
+/* ヘッダ部 */
+#head {
+	margin:0px;
+	padding:0px;
+	background: #FFffFF;
+	width: 800px;
+	height: 86.25px;
+}
+
+#logobox {
+	margin-top: 0px;
+	float:left;
+	width: 192.2px;
+	height: 86.25px;
+	border-style: none;
+}
+
+/* 会社ロゴ */
+.logo {
+	margin-top: 0px;
+	float:left;
+	width: 192.2px;
+	height: 86.25px;
+	border-style: none;
+}
+
+/* ヘッダ右部 */
+#right {
+	background-image: url("../img/title02.jpg");
+	float: right;
+	width: 605px;
+	height: 86.25px;
+}
+
+/* メイン部 */
+#main {
+	background: #FFFFFF;
+	border-top-style: groove;
+	border-bottom-style: groove;
+	border-color: #FFFFFF;
+	border-width: 2px;
+	width: 800px;
+	height: 477.25px;
+}
+
+/* メイン部(左) */
+#main_left {
+	background-image: url("../img/sky.jpg");
+	float: left;
+	font-size: 12pt;
+	width: 195.2px;
+	height: 477.25px;
+}
+
+/* メイン部(左)ツリー構造 */
+.tree {
+	width: 194.2px;
+	height: 30px;
+	border-style: none;
+	border-width: 1px;
+	vertical-align:text-bottom;
+}
+
+.inside {
+	width: 194.2px;
+	height: 25px;
+	border-style: none;
+	border-color: #000000;
+	border-width: 1px;
+	vertical-align:text-bottom;
+}
+
+/* ツリー部初期処理 */
+#treeMenu1 {
+	display: none;
+}
+#treeMenu2 {
+	display: none;
+}
+#treeMenu3 {
+	display: none;
+}
+#treeMenu4 {
+	display: none;
+}
+
+/* メイン部(右) */
+#main_right {
+	background: #FFFFFF;
+	border-width: thin;
+	float: right;
+	width: 604.8px;
+	height: 477.25px;
+	overflow: auto;
+	padding: 0px;
+	font-size: 13pt;
+	font-family: "ＭＳ Ｐゴシック"
+}
+
+/* フッタ部 */
+#foot {
+	background: #FFFFFF;
+	font-size: 9pt;
+	width: 800px;
+	height: 14px;
+}
+
+/* サイトマップ */
+#link01 {
+	margin-left: 20px;
+	float: left;
+}
+
+/* プライバシーポリシー */
+#link02 {
+	margin-left: 30px;
+	float: left;
+}
+
+/* コピーライト */
+#copy {
+	float: right;
+	margin-right: 1px;
+	font-size: 9pt;
+	text-align: left;
+}
+
+a {
+	color: #0000FF;
+}
+
+a:hover {
+	color: #FFA500;
+}
+
+img {
+	border: none;
+}
+
+img:hover {
+	border: none;
+}
+
+/*本文の題名*/
+#daimei{
+	font-size:14pt;
+	font-weight: bold;
+	border-bottom: 2px solid #00008B;
+	font-family: 'ＭＳ ゴシック';
+}
+#daigazou{
+	background-color: #FFFFFF;
+	padding:1pt;
+}
+
+
+/*メニューツリーテーブル部分*/
+.mienai{
+	display:none;
+}
+
+.menutddai{
+	width: 194.2px;
+	height: 30px;
+	background-image:url('../img/tree02.gif');
+}
+.menutddai2{
+	width: 194.2px;
+	height: 30px;
+	background-image:url('../img/tree02.gif');
+}
+.menutdsyou{
+	border:none;
+	width: 194.2px;
+	height: 25px;
+	background-image:url('../img/tree_mini01.gif');
+	color:#000000;
+}
+.menutdsyou2{
+	border:none;
+	width: 194.2px;
+	height: 25px;
+	background-image:url('../img/tree_mini01.gif');
+	color:#000000;
+}
+
+.menulink{
+	display:block;
+	color:#000000;
+	text-decoration:none;
+	width:100%;
+	height:100%;
+}
+.menulink:hover{
+	color:#000000;
+}
+.menumozidai{
+	padding-left: 6px;
+	padding-top: 3px;
+	font-size:17pt;
+	font-family:'ＭＳ 明朝';
+	font-weight:bold;
+	color:#000000;
+}
+.menumozidaiy{
+	padding-left: 6px;
+	padding-top: 3px;
+	font-size:17pt;
+	font-family:'ＭＳ 明朝';
+	font-weight:bold;
+	text-shadow:1px 1px 4px #800080;
+	color:#FFFF00;
+
+.menumozisyouzen{
+	display:block; 
+	text-indent: 6px;
+	padding-top: 4px;
+	font-size:8pt;
+}
+
+.menumozisyoueigo{
+	letter-spacing:-1px;
+	font-size:6pt;
+	font-weight:700;
+	font-style:italic;
+	margin-left:-5px;
+}

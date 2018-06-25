@@ -1,0 +1,96 @@
+img{
+	border-style:none;
+}
+
+#daimei{
+	font-size:14pt;
+	font-weight: bold;
+	border-bottom: 2px solid #00008B;
+	font-family: 'ÇlÇr ÉSÉVÉbÉN';
+	
+}
+
+#daigazou{
+	background-color: #FFFFFF;
+	padding:1pt;
+}
+
+.title{
+	margin-top: 13px;
+	margin-left: 11px;
+}
+
+#syain{
+	position:absolute;
+	top:35px;
+	left:340px;
+	z-index:4;
+}
+#zinzai{
+	position:absolute;
+	top: 70px; 
+	left: 150px;
+	z-index:2;
+}
+#kaisya{
+	position:absolute;
+	top: 140px; 
+	left: 10px;
+	z-index:0;
+}
+#bosyuu{
+	position:absolute;
+	top: 30px; 
+	left: 30px;
+	z-index:1;
+}
+#faq{
+	position:absolute;
+	top: 155px;
+	left: 280px;
+	z-index:3;
+}
+#toiawa{
+	margin-top:0px;
+	float:right;
+	margin-right:15px;
+	font-size:10pt;
+}
+#tyuu{
+	margin-top:0px;
+	float:right;
+	margin-right:15px;
+	font-size:10pt;
+}
+#migi{
+	position: relative;
+	width: 588px;
+	height:409.52px;
+	margin:0px;
+	padding:0px;
+	top:0%;
+	left:0%;
+}
+#migisita{
+	position: relative;
+	width:580px;
+	height:327px;
+	margin: 0px;
+	padding:0px;
+	top:0%;
+	left:0%;
+}
+
+
+#index-text {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 20px;
+	font-size : 12pt;
+	line-height: 22px;
+}
+
+span {
+	white-space: nowrap;
+}
+

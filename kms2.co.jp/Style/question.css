@@ -1,0 +1,28 @@
+/* メイン部(右) */
+#main_right2 {
+	background: #FFFFFF;
+	border-width: thin;
+	float: right;
+	width: 604.8px;
+	height: 477.25px;
+	overflow-y: auto;
+	padding: 5px;
+}
+
+#daimei{
+	font-size:14pt;
+	font-weight: bold;
+	border-bottom: 2px solid #00008B;
+	font-family: 'ＭＳ ゴシック';
+}
+
+#daigazou{
+	background-color: #FFFFFF;
+	padding:1pt;
+}
+
+.text {
+	line-height: 22px;
+	margin-left: 10px;
+	display: block;
+}

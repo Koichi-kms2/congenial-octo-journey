@@ -1,0 +1,47 @@
+/* メニューバー */
+.mnubar {
+	float: right;
+	margin-right: 1px;
+	margin-top: 5.6%;
+	width: 120px;
+	height: 25px;
+}
+
+#finding{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+
+#text {
+	margin-left: 5px;
+}
+
+.list {
+	display:block;
+	margin-top: 5px;
+	margin-left: 30px;
+}
+
+#show {
+	font-size: 11pt;
+	margin-left: 450px;
+}
+
+#text_all {
+	margin-left: 10px;
+	width: 550px;
+	display: none;
+	line-height: 22px;
+}
+
+.tb_all {
+	width: 550px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	height:20px;
+}
+
+.linkmozi{
+	font-size:11pt;
+}

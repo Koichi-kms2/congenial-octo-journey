@@ -1,0 +1,54 @@
+#daimei{
+	font-size:14pt;
+	font-weight: bold;
+	border-bottom: 2px solid #00008B;
+	font-family: 'ÇlÇr ÉSÉVÉbÉN';
+}
+
+#daigazou{
+	background-color: #FFFFFF;
+	padding:1pt;
+}
+
+.title{
+	width:98%;
+	height:100px;
+	margin-top:12px;
+	}
+	
+
+#bosyuu{
+	font-size:11pt;
+	width:550px;
+	empty-cells: show;
+	border:solid;
+}
+.bosyuuhidari{
+	width:140px;
+	text-align:center;
+}
+.bosyuumigi{
+	width:410px;
+	text-align:left;
+	padding:10px;
+}
+.link2{
+	font-size:10pt;
+	}
+
+#botan{
+	text-align:right;
+	margin-right:10px;
+}
+#modoru{
+	margin:10px;
+	font-size :10pt;
+}
+.kozin{
+	font-size: 10pt;
+	margin-left:180px;
+	margin-top: 10px;
+}
+#nigyoume{
+	margin-left:125px;
+}

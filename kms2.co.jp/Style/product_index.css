@@ -1,0 +1,63 @@
+#daimei{
+	font-size:14pt;
+	font-weight: bold;
+	border-bottom: 2px solid #00008B;
+	font-family: '‚l‚r ƒSƒVƒbƒN';
+}
+
+#daigazou{
+	background-color: #FFFFFF;
+	padding:1pt;
+}
+
+.title {
+	margin-top: 15px;
+}
+
+#pic {
+	margin-left: 400px;
+	width: 100px;
+	height: 100px;
+}
+
+.UNS {
+	width: 130px;
+	height: 100px;
+}
+
+#hard {
+	width: 97.5%;
+	height: 140pt;
+}
+
+.title_hard {
+	font: bold large "HG‘n‰pŠpÎß¯Ìß‘Ì", "MS –¾’©";
+	font-size: 18pt;
+	color: #808080;
+	height: 0pt;
+}
+
+.p_name {
+	font: large "HG‘n‰pŠpÎß¯Ìß‘Ì", "MS –¾’©";
+	color: #000000;
+	font-size: 14pt;
+	text-decoration: none;
+}
+
+.exp {
+	font-size: 11pt;
+}
+.p_name:hover {
+	color: #0000FF;
+}
+
+#soft {
+	width: 97.5%;
+	height: 100pt;
+}
+
+#link {
+	margin-left: -100pt;
+	float: left;
+	width: 300pt;
+}
