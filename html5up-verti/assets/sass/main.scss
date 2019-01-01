@@ -19,7 +19,7 @@
 		xlarge:   ( 1281px,  1680px ),
 		large:    ( 981px,   1280px ),
 		medium:   ( 737px,   980px  ),
-		small:    ( null,    736px  )
+		small:    ( null,    600px  )
 	));
 
 // Reset.
@@ -115,7 +115,7 @@
 		background-position: top left, top left;
 		background-repeat: repeat-x, repeat;
 		background-size: 100% 30em, auto;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Noto Sans JP', sans-serif;
 		font-size: 13pt;
 		color: #696969;
 		font-weight: 300;
@@ -132,7 +132,7 @@
 	}
 
 	input, select, textarea {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Noto Sans JP', sans-serif;
 		font-size: 13pt;
 		color: #696969;
 		font-weight: 300;

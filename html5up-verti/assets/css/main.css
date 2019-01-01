@@ -95,7 +95,7 @@ input, select, textarea {
 		background-position: top left, top left;
 		background-repeat: repeat-x, repeat;
 		background-size: 100% 30em, auto;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Noto Sans JP', sans-serif;
 		font-size: 13pt;
 		color: #696969;
 		font-weight: 300;
@@ -114,7 +114,7 @@ input, select, textarea {
 		}
 
 	input, select, textarea {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Noto Sans JP', sans-serif;
 		font-size: 13pt;
 		color: #696969;
 		font-weight: 300;
@@ -224,7 +224,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 600px) {
 
 			.container {
 				width: 100%;
@@ -1210,7 +1210,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 600px) {
 
 			.row {
 				display: flex;
@@ -2061,7 +2061,7 @@ input, select, textarea {
 	}
 
 		#banner h2 {
-			font-size: 3.5em;
+			font-size: 6em;
 			margin: 0.1em 0 0.35em 0;
 		}
 
@@ -2455,7 +2455,7 @@ input, select, textarea {
 
 /* Small */
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 600px) {
 
 		/* Basic */
 
