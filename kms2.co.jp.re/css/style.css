@@ -1,0 +1,267 @@
+@charset "utf-8";
+
+/* リセットCSSここから */
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* リセットCSSここまで */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #696969;
+    font-size: 3.5vw;
+    line-height: 2
+}
+
+a {
+    color: #3583aa;
+    text-decoration: none;
+}
+
+header {
+    width: auto;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 1vw;
+    text-align: center;
+}
+
+.global-nav {
+    margin-top: 1vw;
+    text-align: center;
+}
+
+.global-nav li {
+    display: inline;
+    margin: 0 1vw;
+    font-size: 4vw;
+}
+
+.global-nav li a {
+    background: #444;
+    color: #fff;
+    border-radius: 6px;
+    letter-spacing: 0.025vw;
+    padding: 4px;
+}
+
+#wrap {
+    margin-top: 1vw;
+    padding: 1vw 0 0;
+}
+
+.content {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+}
+
+footer small {
+    font-size: 1.5vw;
+}
+
+.main {
+    background: #fff;
+    width: auto;
+    padding: 1vw;
+    margin: 0 5vw;
+    font-size: 3vw;
+}
+
+.main-txt {
+    text-align: center;
+}
+.main-txt h2 {
+    font-size: 7.2vw;
+    margin: 0 0 2vw 0;
+    line-height: 10vw;
+}
+
+.main span {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+table tr {
+    border-top: solid 1px #eee;
+}
+
+table tr:first-child {
+        border-top: 0;
+    }
+
+table td {
+    padding: 0.5vw 1vw 0.5vw 1vw;
+}
+
+table th {
+    text-align: left;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    font-weight: 800;
+    margin: 0 0 1vw 0;
+}
+
+table thead {
+    background: #404248;
+    color: #fff;
+}
+
+#map {
+    padding: auto;
+}
+
+.banner {
+    padding: 15px 15px 15px 15px;
+}
+
+@media screen and (min-width:600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #CCCCCC;
+        color: #333333;
+        font-size: 3.5vw;
+        line-height: 2
+    }
+
+    header {
+        width: 960px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .logo {
+        float: left;
+        margin-top: 50px;
+    }
+
+    .global-nav {
+        float: right;
+        margin-top: 60px;
+    }
+
+    .global-nav li {
+        float: left;
+        margin: 0 20px;
+        font-size: 20px;
+    }
+
+    .global-nav li a:hover {
+        border-bottom: 2px solid #ffffff;
+        padding-bottom: 3px;
+        text-decoration:  none;
+    }
+
+    #wrap {
+        clear: both;
+    }
+
+    .content {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    footer small {
+        font-size: 12px;
+    }
+
+    .main {
+        background: #fff;
+        width: auto;
+        padding: 20px;
+        margin: 0 20px;
+        font-size: 12px;
+    }
+
+    .main-txt h2 {
+        font-size: 70px;
+        margin: 0 0 10px 0;
+        text-align: center;
+    }
+
+    .main span {
+        font-weight: bold;
+    }
+
+ 	table {
+		width: 100%;
+	}
+
+    table tr {
+        border-top: solid 1px #eee;
+    }
+
+    table tr:first-child {
+         border-top: 0;
+    }
+
+    table td {
+        padding: 0.5em 1em 0.5em 1em;
+    }
+
+    table th {
+        text-align: left;
+        padding: 0.5em 1em 0.5em 1em;
+        font-weight: 800;
+        margin: 0 0 1em 0;
+    }
+
+    table thead {
+        background: #404248;
+        color: #fff;
+    }
+
+    #map {
+        padding: auto;
+    }
+}
