@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 
 /* リセットCSSここから */
 html, body, div, span, applet, object,
@@ -82,7 +82,9 @@ header {
 }
 
 .global-nav li a {
-    background: #444;
+    background: mediumseagreen;
+    font-size: 30px;
+    font-weight: bold;
     color: #fff;
     border-radius: 6px;
     letter-spacing: 0.025vw;
