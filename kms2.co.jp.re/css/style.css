@@ -49,7 +49,7 @@ table {
 body {
     margin: 0;
     padding: 0;
-    background-color: #3cb371;
+    background-color: #FFFFCC;
     color: #5a3030;
     font-size: 3.5vw;
     line-height: 2
@@ -170,7 +170,7 @@ table thead {
     body {
         margin: 0;
         padding: 0;
-        background-color: #3cb371;
+        background-color: #FFFFCC;
         color: #333333;
         font-size: 3.5vw;
         line-height: 2
@@ -269,19 +269,19 @@ table thead {
 }
 
 /* フラットボタンここから */
-.btn-flat-logo {
+.btn-flat-simple {
   position: relative;
   display: inline-block;
-  font-weight: bold;
   padding: 0.25em 0.5em;
   text-decoration: none;
-  color: #FFF;
-  background: #00bcd4;
+  color: #00BCD4;
+  background: #ECECEC;
   transition: .4s;
 }
 
-.btn-flat-logo:hover {
-  background: #1ec7bb;
+.btn-flat-simple:hover {
+  background: #00bcd4;
+  color: white;
 }
 /* フラットボタンここまで */
 
