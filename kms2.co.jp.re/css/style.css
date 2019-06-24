@@ -49,12 +49,10 @@ table {
 body {
     margin: 0;
     padding: 0;
-    background-color: #FFFFCC;
+    background-color: #FFFFFF;
     color: #5a3030;
-    font-size: 3.5vw;
     line-height: 2
 }
-
 a {
     color: #3583aa;
     text-decoration: none;
@@ -77,18 +75,15 @@ header {
 
 .global-nav li {
     display: inline;
-    margin: 0 1vw;
-    font-size: 4vw;
 }
 
 .global-nav li a {
-    background: mediumseagreen;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
-    color: #fff;
+    color: #404248;
     border-radius: 6px;
     letter-spacing: 0.025vw;
-    padding: 4px;
+    padding: 1px;
 }
 
 #wrap {
@@ -112,24 +107,38 @@ footer small {
 .main {
     background: #fff;
     width: auto;
-    padding: 1vw;
-    margin: 0 5vw;
-    font-size: 3vw;
+    margin: 0 0.1em;
 }
 
 .main-txt {
     text-align: center;
 }
-.main-txt h2 {
-    font-size: 7.2vw;
-    margin: 0 0 2vw 0;
-    line-height: 10vw;
-}
-
 .main span {
     font-weight: bold;
 }
-
+h1 {
+    font-size: 2.5em;
+    margin: 0 0 10vw 0;
+    line-height: 10vw;    
+}
+h2 {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #33CC66;
+    
+}
+h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #33CC66;
+}
+h4 {
+    font-size: 0.8rem;
+}
+.signature h4 {
+    text-align: right;
+    font-size: 0.5rem;
+}
 table {
     width: 100%;
 }
@@ -147,9 +156,10 @@ table td {
 }
 
 table th {
+    font-size: 1em;
     text-align: left;
     padding: 0.5vw 1vw 0.5vw 1vw;
-    font-weight: 800;
+    font-weight: bold;
     margin: 0 0 1vw 0;
 }
 
@@ -163,125 +173,127 @@ table thead {
 }
 
 .banner {
-    padding: 15px 15px 15px 15px;
+  color: #fff;
+  background-color: #33CC66;
+  border: solid 1px #33CC66;
+  border-radius: 1px;
+  transition: .4s;
 }
-
+th {
+    width: 30%;
+}
 @media screen and (min-width:600px) {
     body {
         margin: 0;
         padding: 0;
-        background-color: #FFFFCC;
-        color: #333333;
-        font-size: 3.5vw;
         line-height: 2
     }
-
     header {
-        width: 960px;
+        width: 920px;
         height: 100px;
         margin: 0 auto;
     }
 
     .logo {
         float: left;
-        margin-top: 50px;
+        margin-top: 1em;
     }
-
-    .global-nav {
+   .global-nav {
         float: right;
-        margin-top: 60px;
+        margin-top: 1em;
     }
-
-    .global-nav li {
+        .global-nav li {
         float: left;
         margin: 0 20px;
         font-size: 20px;
     }
-
-    .global-nav li a:hover {
-        border-bottom: 2px solid #ffffff;
-        padding-bottom: 3px;
-        text-decoration:  none;
-    }
-
     #wrap {
         clear: both;
     }
-
     .content {
         width: 960px;
         margin: 0 auto;
     }
-
-    footer small {
-        font-size: 12px;
-    }
-
     .main {
-        background: #fff;
         width: auto;
         padding: 20px;
-        margin: 0 20px;
-        font-size: 12px;
+        margin: 0 0;
     }
-
     .main-txt h2 {
-        font-size: 70px;
-        margin: 0 0 10px 0;
         text-align: center;
     }
-
     .main span {
         font-weight: bold;
     }
-
  	table {
 		width: 100%;
 	}
-
     table tr {
         border-top: solid 1px #eee;
     }
-
     table tr:first-child {
          border-top: 0;
     }
-
     table td {
+        font-size: 1.3em;
         padding: 0.5em 1em 0.5em 1em;
     }
-
     table th {
+        font-size: 1.2em;
         text-align: left;
         padding: 0.5em 1em 0.5em 1em;
-        font-weight: 800;
         margin: 0 0 1em 0;
     }
-
     table thead {
         background: #404248;
         color: #fff;
     }
-
     #map {
         padding: auto;
+    }
+    footer small {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 6em;
+        margin: 0 0 0.8em 0;
+        line-height: 0.8em;    
+    }
+    h2 {
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #33CC66;
+
+    }
+    h3 {
+        font-size: 2em;
+        font-weight: bold;
+        color: #33CC66;
+    }
+    h4 {
+        font-size: 1.3rem;
+    }
+    .signature h4 {
+        text-align: right;
+        font-size: 1.2rem;
+    }
+    .banner p {
+        font-size: 1.5em;
     }
 }
 
 /* フラットボタンここから */
 .btn-flat-simple {
-  position: relative;
   display: inline-block;
-  padding: 0.25em 0.5em;
+  padding: 0.3em 1em;
   text-decoration: none;
-  color: #00BCD4;
-  background: #ECECEC;
+  color: #404248;
+/*    
+  border: solid 1px #404248;
+  border-radius: 1px;
+*/
   transition: .4s;
-}
-
-.btn-flat-simple:hover {
-  background: #00bcd4;
-  color: white;
+  margin: 1px
 }
 /* フラットボタンここまで */
 
@@ -298,7 +310,7 @@ table thead {
 	z-index: 1;
 	bottom: 0;
 	width: 100%;
-	height: 140px; /* グラデーションの高さ */
+	height: 75px; /* グラデーションの高さ */
 	cursor: pointer;
 	text-align: center;
 	/* 以下グラデーションは背景を自身のサイトに合わせて設定してください */
@@ -315,12 +327,12 @@ table thead {
 	left: 50%;
 	width: 16rem;
 	font-family: FontAwesome;
-	content: '\f13a'' 続きをよむ';
+	content: '続きをよむ';
 	transform: translate(-50%, 0);
 	letter-spacing: 0.05em;
-	color: #ffffff;
+    color: #fff;
 	border-radius: 20px;
-	background-color: rgba(27, 37, 56, 1);
+	background-color: #33CC66;
 }
 .cp_box input {
 	display: none;
@@ -335,7 +347,7 @@ table thead {
 }
 .cp_box input:checked + label:after {
 	font-family: FontAwesome;
-	content: '\f139'' 閉じる';
+	content: '閉じる';
 }
 .cp_box input:checked ~ .cp_container {
 	height: auto;
@@ -343,3 +355,37 @@ table thead {
 	transition: all 0.5s;
 }
 /* 続きを読むCSS　ここまで */
+/* 上に戻るボタン ここから */
+#page_top{
+  z-index: 999;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #3fefee;
+  opacity: 0.6;
+  border-radius: 50%;
+  }
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-weight: 900;
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+/* 上に戻るボタン ここまで */
