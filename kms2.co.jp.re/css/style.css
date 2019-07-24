@@ -68,22 +68,32 @@ header {
     text-align: center;
 }
 
+nav {
+    background-color: #FFFFFF;
+}
+
 .global-nav {
     margin-top: 1vw;
     text-align: center;
 }
-
 .global-nav li {
     display: inline;
 }
 
 .global-nav li a {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     color: #404248;
     border-radius: 6px;
     letter-spacing: 0.025vw;
     padding: 1px;
+}
+.is-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
 }
 
 #wrap {
@@ -171,7 +181,6 @@ table thead {
 #map {
     padding: auto;
 }
-
 .banner {
   color: #fff;
   background-color: #33CC66;
@@ -182,6 +191,7 @@ table thead {
 th {
     width: 30%;
 }
+
 @media screen and (min-width:600px) {
     body {
         margin: 0;
@@ -202,7 +212,7 @@ th {
         float: right;
         margin-top: 1em;
     }
-        .global-nav li {
+    .global-nav li {
         float: left;
         margin: 0 20px;
         font-size: 20px;
