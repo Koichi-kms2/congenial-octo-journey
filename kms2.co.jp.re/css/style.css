@@ -1,49 +1,136 @@
 ﻿@charset "utf-8";
 
 /* リセットCSSここから */
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
 
 body {
-	line-height: 1;
+    line-height: 1;
 }
 
-ol, ul {
-	list-style: none;
+ol,
+ul {
+    list-style: none;
 }
 
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+    quotes: none;
 }
 
-blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
     content: '';
     content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 /* リセットCSSここまで */
 
 body {
@@ -53,9 +140,10 @@ body {
     color: #5a3030;
     line-height: 2
 }
+
 a {
     color: #3583aa;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 header {
@@ -76,24 +164,26 @@ nav {
     margin-top: 1vw;
     text-align: center;
 }
+
 .global-nav li {
     display: inline;
 }
 
 .global-nav li a {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     color: #404248;
     border-radius: 6px;
     letter-spacing: 0.025vw;
     padding: 1px;
 }
+
 .is-fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
 }
 
 #wrap {
@@ -103,6 +193,7 @@ nav {
 
 .content {
     width: 100%;
+    margin: 0 auto;
 }
 
 footer {
@@ -111,7 +202,7 @@ footer {
 }
 
 footer small {
-    font-size: 1.5vw;
+    font-size: 16px;
 }
 
 .main {
@@ -123,32 +214,38 @@ footer small {
 .main-txt {
     text-align: center;
 }
+
 .main span {
     font-weight: bold;
 }
+
 h1 {
-    font-size: 2.5em;
-    margin: 0 0 10vw 0;
-    line-height: 10vw;    
+    font-size: 40px;
+    margin: 0 0 1vw 0;
 }
+
 h2 {
-    font-size: 1.6em;
+    font-size: 24px;
     font-weight: bold;
+    text-align: center;
     color: #33CC66;
-    
 }
+
 h3 {
-    font-size: 1.2em;
+    font-size: 16px;
     font-weight: bold;
     color: #33CC66;
 }
+
 h4 {
-    font-size: 0.8rem;
+    font-size: 16px;
 }
+
 .signature h4 {
     text-align: right;
     font-size: 0.5rem;
 }
+
 table {
     width: 100%;
 }
@@ -158,8 +255,8 @@ table tr {
 }
 
 table tr:first-child {
-        border-top: 0;
-    }
+    border-top: 0;
+}
 
 table td {
     padding: 0.5vw 1vw 0.5vw 1vw;
@@ -181,221 +278,141 @@ table thead {
 #map {
     padding: auto;
 }
+
 .banner {
-  color: #fff;
-  background-color: #33CC66;
-  border: solid 1px #33CC66;
-  border-radius: 1px;
-  transition: .4s;
+    color: #fff;
+    background-color: #00CC66;
+    border: solid 1px #00CC66;
+    border-radius: 1px;
+    transition: .4s;
+    height: 260px;
 }
+
 th {
     width: 30%;
 }
 
 @media screen and (min-width:600px) {
-    body {
-        margin: 0;
-        padding: 0;
-        line-height: 2
-    }
     header {
-        width: 920px;
-        height: 100px;
-        margin: 0 auto;
+        width: 900px;
     }
 
-    .logo {
-        float: left;
-        margin-top: 1em;
-    }
-   .global-nav {
-        float: right;
-        margin-top: 1em;
-    }
-    .global-nav li {
-        float: left;
-        margin: 0 20px;
-        font-size: 20px;
-    }
-    #wrap {
-        clear: both;
-    }
     .content {
-        width: 960px;
-        margin: 0 auto;
+        width: 900px;
     }
-    .main {
-        width: auto;
-        padding: 20px;
-        margin: 0 0;
-    }
-    .main-txt h2 {
-        text-align: center;
-    }
-    .main span {
-        font-weight: bold;
-    }
- 	table {
-		width: 100%;
-	}
-    table tr {
-        border-top: solid 1px #eee;
-    }
-    table tr:first-child {
-         border-top: 0;
-    }
-    table td {
-        font-size: 1.3em;
-        padding: 0.5em 1em 0.5em 1em;
-    }
-    table th {
-        font-size: 1.2em;
-        text-align: left;
-        padding: 0.5em 1em 0.5em 1em;
-        margin: 0 0 1em 0;
-    }
-    table thead {
-        background: #404248;
-        color: #fff;
-    }
-    #map {
-        padding: auto;
-    }
-    footer small {
-        font-size: 12px;
-    }
-    h1 {
-        font-size: 6em;
-        margin: 0 0 0.8em 0;
-        line-height: 0.8em;    
-    }
-    h2 {
-        font-size: 2.5em;
-        font-weight: bold;
-        color: #33CC66;
 
-    }
-    h3 {
-        font-size: 2em;
-        font-weight: bold;
-        color: #33CC66;
-    }
-    h4 {
-        font-size: 1.3rem;
-    }
-    .signature h4 {
-        text-align: right;
-        font-size: 1.2rem;
-    }
-    .banner p {
-        font-size: 1.5em;
+    table {
+        width: 100%;
     }
 }
 
 /* フラットボタンここから */
 .btn-flat-simple {
-  display: inline-block;
-  padding: 0.3em 1em;
-  text-decoration: none;
-  color: #404248;
-/*    
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #404248;
+    /*    
   border: solid 1px #404248;
   border-radius: 1px;
 */
-  transition: .4s;
-  margin: 1px
+    transition: .4s;
+    margin: 1px
 }
+
 /* フラットボタンここまで */
 
 /* 続きを読むCSS　ここから */
-.cp_box *, .cp_box *:before, .cp_box *:after {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+.cp_box *,
+.cp_box *:before,
+.cp_box *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 .cp_box {
-	position: relative;
+    position: relative;
 }
+
 .cp_box label {
-	position: absolute;
-	z-index: 1;
-	bottom: 0;
-	width: 100%;
-	height: 75px; /* グラデーションの高さ */
-	cursor: pointer;
-	text-align: center;
-	/* 以下グラデーションは背景を自身のサイトに合わせて設定してください */
-	background: linear-gradient(to bottom, rgba(250, 252, 252, 0) 0%, rgba(250, 252, 252, 0.95) 90%);
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    /* グラデーションの高さ */
+    cursor: pointer;
+    text-align: center;
+    /* 以下グラデーションは背景を自身のサイトに合わせて設定してください */
+    background: linear-gradient(to bottom, rgba(250, 252, 252, 0) 0%, rgba(250, 252, 252, 0.95) 90%);
 }
+
 .cp_box input:checked + label {
-	background: inherit; /* 開いた時にグラデーションを消す */
+    background: inherit;
+    /* 開いた時にグラデーションを消す */
 }
+
 .cp_box label:after {
-	line-height: 2.5rem;
-	position: absolute;
-	z-index: 2;
-	bottom: 20px;
-	left: 50%;
-	width: 16rem;
-	font-family: FontAwesome;
-	content: '続きをよむ';
-	transform: translate(-50%, 0);
-	letter-spacing: 0.05em;
+    line-height: 2.5rem;
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    left: 50%;
+    width: 16rem;
+    content: '続きをよむ';
+    transform: translate(-50%, 0);
+    letter-spacing: 0.05em;
     color: #fff;
-	border-radius: 20px;
-	background-color: #33CC66;
+    border-radius: 20px;
+    background-color: #00CC66;
 }
+
 .cp_box input {
-	display: none;
+    display: none;
 }
+
 .cp_box .cp_container {
-	overflow: hidden;
-	height: 250px; /* 開く前に見えている部分の高さ */
-	transition: all 0.5s;
+    overflow: hidden;
+    height: 250px;
+    /* 開く前に見えている部分の高さ */
+    transition: all 0.5s;
 }
+
 .cp_box input:checked + label {
-	/* display: none ; 閉じるボタンを消す場合解放 */
+    /* display: none ; 閉じるボタンを消す場合解放 */
 }
+
 .cp_box input:checked + label:after {
-	font-family: FontAwesome;
-	content: '閉じる';
+    content: '閉じる';
 }
+
 .cp_box input:checked ~ .cp_container {
-	height: auto;
-	padding-bottom: 80px; /* 閉じるボタンのbottomからの位置 */
-	transition: all 0.5s;
+    height: auto;
+    padding-bottom: 70px;
+    /* 閉じるボタンのbottomからの位置 */
+    transition: all 0.5s;
 }
+
 /* 続きを読むCSS　ここまで */
 /* 上に戻るボタン ここから */
-#page_top{
-  z-index: 999;
-  width: 50px;
-  height: 50px;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  background: #3fefee;
-  opacity: 0.6;
-  border-radius: 50%;
-  }
-#page_top a{
-  position: relative;
-  display: block;
-  width: 50px;
-  height: 50px;
-  text-decoration: none;
+#page_top {
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: #00CC66;
+    opacity: 0.6;
+    border-radius: 50%;
 }
-#page_top a::before{
-  font-weight: 900;
-  font-size: 25px;
-  color: #fff;
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: auto;
-  text-align: center;
+
+#page_top a {
+    position: relative;
+    display: block;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
+
 /* 上に戻るボタン ここまで */
