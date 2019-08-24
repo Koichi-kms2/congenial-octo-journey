@@ -224,12 +224,20 @@ footer small {
     width: auto;
     margin: 0 0;    
 }
-
+/* bannerメッセージ */
 h1 {
     font-size: 40px;
     margin: 0 0 1vw 0;
 }
-
+.banner {
+    color: #fff;
+    background-color: #00CC66;
+    border: solid 1px #00CC66;
+    border-radius: 1px;
+    transition: .4s;
+    height: 260px;
+}
+/* セクションヘッダー */
 h2 {
     font-size: 24px;
     font-weight: bold;
@@ -237,16 +245,19 @@ h2 {
     color: #33CC66;
 }
 
+/* 見出し */
 h3 {
     font-size: 16px;
     font-weight: bold;
     color: #33CC66;
 }
 
+/* 文章 */
 h4 {
     font-size: 16px;
 }
 
+/* プライバシーポリシー署名 */
 .signature h4 {
     text-align: right;
     font-size: 0.5rem;
@@ -279,21 +290,9 @@ table thead {
     color: #fff;
 }
 
+/* 地図 */
 #map {
     padding: auto;
-}
-
-.banner {
-    color: #fff;
-    background-color: #00CC66;
-    border: solid 1px #00CC66;
-    border-radius: 1px;
-    transition: .4s;
-    height: 260px;
-}
-
-th {
-    width: 30%;
 }
 
 #whatsnew {
@@ -301,17 +300,34 @@ th {
     border: dotted 2px #00CC66;
 }
 
+/* スマホ用 */
+@media screen and (max-width:600px) {
+    /* テーブル要素を縦並びに */
+    .tbl-variable {
+        display: block;
+        width: 80%;
+    }
+    .tbl-variable th {
+        border-bottom: none;
+        display: block;
+        width: 100%;
+    }
+    .tbl-variable td {
+        border-bottom: none;
+        display: block;
+        width: 100%;
+    }
+}
+
+/* PC用 */
 @media screen and (min-width:600px) {
+    /* 最大幅固定 */
     header {
         width: 900px;
     }
-
+    /* 最大幅固定 */
     .content {
         width: 900px;
-    }
-
-    table {
-        width: 100%;
     }
 }
 
