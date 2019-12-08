@@ -8,6 +8,38 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&amp;subset=japanese" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        function wget(url) {
+            // 準備
+            var http = null;
+            if (window.XMLHttpRequest) { // Safari, Firefox など
+                http = new XMLHttpRequest();
+            } else if (window.ActiveXObject) { // IE
+                try {
+                    http = new ActiveXObject("Msxml2.XMLHTTP");
+                } // IE6
+                catch (e) {
+                    try {
+                        http = new ActiveXObject("Microsoft.XMLHTTP");
+                    } // IE5
+                    catch (e) {
+                        return null;
+                    } // Error
+                }
+            }
+
+            // 同期通信
+            http.open("GET", url, false);
+            http.send(null);
+            return http.responseText;
+        }
+
+        function getCount() {
+            var el = document.activeElement;
+            var url = el.href;
+            wget("./counter/count.cgi?" + url);
+        }
+    </script>
 </head>
 
 <body id="top">
@@ -50,10 +82,14 @@
                     <div class="main-txt">
                         <p>～ITが必要不可欠となっているこの時代～
                             <br>
-                            <br>
                         </p>
                         <h1>IT を 相棒 に</h1>
                         <h1>IT <span style="font-size:0.6em">are</span> Nice buddy</h1>
+                    </div>
+                </section>
+                <section class="banner2 message clearfix">
+                    <div class="main-txt">
+                        <p>！ホームページリニューアル間近！</p>
                     </div>
                 </section>
                 <div id="main1"></div>
@@ -96,7 +132,7 @@
                                     <tr class="last">
                                         <th>組み込み系システム開発</th>
                                         <td>
-                                            <a href="http://real-system.net/" target="_blank">ホームセキュリティ商品企画</a>&nbsp;※販売会社HP<br>
+                                            <a href="http://real-system.net/" target="_blank" onclick="getCount()">ホームセキュリティ商品企画</a>&nbsp;※販売会社HP<br>
                                             ＣＡＤ/ＣＡＭシステム組み込み設計、開発、運用<br>
                                             スマートフォン(iPhone,Android)設計、開発、販売<br>
                                             無線システム（ワイヤレス温度計）設計、開発、販売

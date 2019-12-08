@@ -220,26 +220,27 @@ footer small {
 }
 
 .banner {
-    background: #fff;
-    width: auto;
-    margin: 0 0;    
-}
-/* bannerメッセージ */
-h1 {
-    font-size: 40px;
-    margin: 0 0 1vw 0;
-}
-.banner {
     color: #fff;
     background-color: #00CC66;
     border: solid 1px #00CC66;
     border-radius: 1px;
     transition: .4s;
-    height: 260px;
+    height: 200px;
+    margin: 0 0;
+    width: auto;
+}
+.banner2 {
+    background-color: #fff;
+    margin: 0 0;
+    width: auto;
+}
+/* bannerメッセージ */
+h1 {
+    font-size: 40px;
+    margin: 0 0 0 0;
 }
 /* トップメッセージ */
 .message {
-    text-align: center;
     font-size: 16px;
     font-weight: bold;
 }
